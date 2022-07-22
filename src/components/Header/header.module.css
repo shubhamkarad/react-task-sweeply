@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.header-wrapper {
+    height: 150px;
+    box-shadow: 5px 10px #8888;
+    width: 100%;
+}
+.header div {
+    padding-right: 15px;
+}
+.header div i {
+    padding-right: 10px;
+}
+.login {
+    margin-left: 100px;
+}
+.logo {
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 0 4px 8px rgba(0,0, 0, 0.2);
+}
